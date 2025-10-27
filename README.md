@@ -36,8 +36,8 @@ This project monitors the quality of water in real time using sensors and an IoT
 2. Open `WaterQualityMonitoring.ino`
 3. Select the correct **board** and **port**
 4. Install required libraries (if used in the sketch):
-   - `ESP8266WiFi` or `WiFi.h`
-   - `OneWire.h` and `DallasTemperature.h` (for DS18B20)
+   -  `WiFi.h`
+   - `OneWire.h` 
 5. Click **Upload** to flash the code
 
 ---
@@ -58,9 +58,10 @@ const char* password = "YOUR_WIFI_PASSWORD";
 * Serial Monitor displays:
 
   ```
+  EC:0.5 mS/cm
   TDS: 320 ppm
-  pH: 7.2
-  Temperature: 25°C
+  Status:Safe
+
   ```
 * Dashboard (if connected) shows live readings
 
